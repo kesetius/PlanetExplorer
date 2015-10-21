@@ -64,7 +64,7 @@ public class PlanetExplorer {
 	
 	// Add obstacle to a spesific field of a grid, [mark as 1]
 	public void setObstacle(int x,int y) {
-		this.grid[x][y] = 1;
+		this.grid[x][y] = 2;
 	}
 	
 	
