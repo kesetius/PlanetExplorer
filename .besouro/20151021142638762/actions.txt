@@ -245,3 +245,5 @@ EditAction 1445432657622 PlanetExplorer.java 2953 8 21 0
 EditAction 1445432660116 PlanetExplorer.java 2947 8 21 0
 RefactoringAction 1445432678345 TestPlanetExplorer.java ADD void testExplorerPosition_00_00() METHOD
 EditAction 1445432688237 TestPlanetExplorer.java 1169 4 18 3
+RefactoringAction 1445432711256 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.Pair IMPORT
+EditAction 1445432716732 TestPlanetExplorer.java 1238 4 18 3

@@ -3,6 +3,7 @@ package org.unioulu.tol.sqat2015.planetExplorer.tests;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.unioulu.tol.sqat2015.planetExplorer.Pair;
 import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 
 public class TestPlanetExplorer {
@@ -40,7 +41,7 @@ public class TestPlanetExplorer {
 		array[1][1] = 2;
 		array[6][6] = 2;
 		
-		assertArrayEquals(array,pe.getGrid());	
+		assertEquals(new Pair(0,0),pe.getExplorerPosition());	
 	}
 	
 	@Test
