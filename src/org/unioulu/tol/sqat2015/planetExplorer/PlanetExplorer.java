@@ -29,6 +29,9 @@ public class PlanetExplorer {
 		this.grid = new int[x][y];
 	}
 	
+	public void setObstacle(int x,int y) {
+		this.grid[x][y] = 1;
+	}
 	
 	
 	public String executeCommand(String command){
