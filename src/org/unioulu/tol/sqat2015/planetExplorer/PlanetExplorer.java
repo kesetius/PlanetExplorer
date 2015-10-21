@@ -89,7 +89,6 @@ public class PlanetExplorer {
 
 		this.grid[myPos.getX()][myPos.getY()] = 0;
 		
-		System.out.println(myPos.getY());
 		
 		
 		for( char c : cmdArr) {
@@ -97,6 +96,7 @@ public class PlanetExplorer {
 			//       inside that method
 			switch (c) {
 				case 'f':
+					System.out.println("im here");
 					this.grid[myPos.getX()][myPos.getY()+1] = 1;
 				case 'b':
 					this.grid[myPos.getX()][myPos.getY()-1] = 1;
