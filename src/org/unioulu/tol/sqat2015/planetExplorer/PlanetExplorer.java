@@ -22,8 +22,7 @@ public class PlanetExplorer {
 		
 		
 	}
-	
-	
+		
 	public int[][] getGrid() {
 		return grid;
 	}
@@ -32,6 +31,21 @@ public class PlanetExplorer {
 	public void setGrid(int x, int y) {
 		this.grid = new int[x][y];
 	}
+	
+	public void parseObstacles( String obstacles ) {
+		
+		
+		String obs = obstacles;
+		
+		obs.replace("(",""); // Output: "1,2)3,4)5,6).."
+		
+		String[] coords = obs.split(")");
+		
+		Pair pair = new Pair();
+		
+		
+	}
+	
 	
 	// Add obstacle to a spesific field of a grid, [mark as 1]
 	public void setObstacle(int x,int y) {

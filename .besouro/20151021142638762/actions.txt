@@ -42,3 +42,4 @@ RefactoringAction 1445428943718 Pair.java RENAME getPair()=><initializer /1> nul
 RefactoringAction 1445428949238 Pair.java ADD int getX FIELD
 RefactoringAction 1445428964263 Pair.java ADD int getY() METHOD
 EditAction 1445428964559 Pair.java 288 3 4 0
+EditAction 1445429403869 PlanetExplorer.java 2015 6 9 0
