@@ -41,7 +41,13 @@ public class TestPlanetExplorer {
 		array[1][1] = 2;
 		array[6][6] = 2;
 		
-		assertEquals(new Pair(0,0),pe.getExplorerPosition());	
+		Pair actual = pe.getExplorerPosition();
+		
+		String actualString = Integer.toString(actual.getX()) ;
+							+ Integer.toString(actual.getY()) ;
+		
+		
+		assertEquals("00",actualString);	
 	}
 	
 	@Test
