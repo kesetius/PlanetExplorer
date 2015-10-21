@@ -99,7 +99,6 @@ public class PlanetExplorer {
 			this.grid[myPos.getX()][myPos.getY()] = 0;
 			switch (c) {
 				case 'f':
-					System.out.println("im here");
 					this.grid[myPos.getX()][myPos.getY()+1] = 1;
 					break;
 				case 'b':
