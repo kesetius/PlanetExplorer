@@ -41,7 +41,7 @@ public class PlanetExplorer {
 		
 		obs = obs.replace("(", "").replace(")","|"); // Output: "1,2)3,4)5,6).."
 		System.out.println(obs);
-		String[] coords = obs.split(")");
+		String[] coords = obs.split("|");
 		Pair[] thePairs = new Pair[ coords.length ];
 		
 		int i = 0;
