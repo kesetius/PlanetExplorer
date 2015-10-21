@@ -104,10 +104,7 @@ public class PlanetExplorer {
 				default:
 					this.grid[myPos.getX()][myPos.getY()] = 1;
 			}
-			
-
-			
-			
+				
 			
 		}
 		
