@@ -77,3 +77,15 @@
 1445431896027 refactoring 2A 70 true
 1445431904196 refactoring 2A 1 true
 1445431985838 refactoring 2A 65 true
+1445432087285 refactoring 3 80 true
+1445432087286 refactoring 3 80 true
+1445432087287 refactoring 3 80 true
+1445432087288 refactoring 3 80 true
+1445432087289 refactoring 1A 80 true
+1445432087290 refactoring 1A 80 true
+1445432087291 refactoring 1A 80 true
+1445432087292 refactoring 3 80 true
+1445432087293 refactoring 1A 80 true
+1445432087294 refactoring 3 80 true
+1445432087295 refactoring 3 80 true
+1445432087296 refactoring 3 80 true

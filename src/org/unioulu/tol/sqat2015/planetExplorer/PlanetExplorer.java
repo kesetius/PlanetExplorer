@@ -87,7 +87,8 @@ public class PlanetExplorer {
 		
 		char[] cmdArr = command.toCharArray();
 
-		
+		for( char c : cmdArr) {
+		}
 		
 		
 		return null;
