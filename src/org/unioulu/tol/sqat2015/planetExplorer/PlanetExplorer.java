@@ -95,6 +95,7 @@ public class PlanetExplorer {
 			// TODO: wrap in to a method and record obstacles
 			//       inside that method
 			switch (c) {
+				Pair myPos = this.getExplorerPosition();
 				case 'f':
 					System.out.println("im here");
 					this.grid[myPos.getX()][myPos.getY()+1] = 1;
