@@ -95,7 +95,6 @@ public class PlanetExplorer {
 			//       inside that method
 			
 			Pair myPos = this.getExplorerPosition();
-			System.out.println(myPos.getY());
 			this.grid[myPos.getX()][myPos.getY()] = 0;
 			switch (c) {
 				case 'f':
