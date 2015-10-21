@@ -89,6 +89,9 @@ public class PlanetExplorer {
 
 		this.grid[myPos.getX()][myPos.getY()] = 0;
 		
+		System.out.println(myPos.getY());
+		
+		
 		for( char c : cmdArr) {
 			// TODO: wrap in to a method and record obstacles
 			//       inside that method
