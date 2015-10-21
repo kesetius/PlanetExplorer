@@ -238,3 +238,6 @@ UnitTestSessionAction 1445432087285 TestPlanetExplorer OK
 EditAction 1445432276345 PlanetExplorer.java 2720 7 19 0
 RefactoringAction 1445432295625 PlanetExplorer.java ADD Pair getExplorerPosition() METHOD
 EditAction 1445432306063 PlanetExplorer.java 2786 8 20 0
+CompilationAction 1445432306329 PlanetExplorer.java
+CompilationAction 1445432313240 PlanetExplorer.java
+EditAction 1445432315315 PlanetExplorer.java 2802 8 20 0
