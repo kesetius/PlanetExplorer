@@ -86,7 +86,7 @@ public class PlanetExplorer {
 		
 		char[] cmdArr = command.toCharArray();
 		
-		System.out.println(cmdArr);
+		System.out.println(cmdArr[0]);
 		
 		
 		return null;
