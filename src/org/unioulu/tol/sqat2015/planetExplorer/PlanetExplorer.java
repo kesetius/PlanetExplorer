@@ -93,6 +93,10 @@ public class PlanetExplorer {
 		
 		return null;
 	}
+	
+	public Pair getExplorerPosition() {
+		return Pair(1,1);
+	}
 
 
 }
