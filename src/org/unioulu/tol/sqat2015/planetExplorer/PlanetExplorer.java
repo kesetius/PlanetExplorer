@@ -41,7 +41,15 @@ public class PlanetExplorer {
 		
 		String[] coords = obs.split(")");
 		
-		Pair pair = new Pair();
+		for( String c : coords) {
+			
+			String[] oneCoord = c.split(","); 
+			Pair pair = new Pair( Integer.parseInt(oneCoord[0]), Integer.parseInt(oneCoord[1]));
+			
+			
+		}
+		
+
 		
 		
 	}
