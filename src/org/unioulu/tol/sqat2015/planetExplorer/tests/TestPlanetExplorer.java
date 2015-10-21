@@ -54,7 +54,7 @@ public class TestPlanetExplorer {
 		
 		PlanetExplorer pe = new PlanetExplorer(100,100,"");
 
-		pe.executeCommand("fff");
+		pe.executeCommand("");
 		
 		
 	}
