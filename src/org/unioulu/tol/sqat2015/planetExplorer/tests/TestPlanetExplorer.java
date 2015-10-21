@@ -17,4 +17,11 @@ public class TestPlanetExplorer {
 		
 		assertArrayEquals(array,pe.getGrid());
 	}
+
+
+	@Test
+	public void executeCommand() {
+		
+	}
+
 }

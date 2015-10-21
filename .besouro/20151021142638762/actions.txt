@@ -168,3 +168,6 @@ EditAction 1445431357055 TestPlanetExplorer.java 478 1 5 1
 UnitTestCaseAction 1445431358835 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445431358835 TestPlanetExplorer OK
 EditAction 1445431413053 PlanetExplorer.java 2510 6 17 0
+RefactoringAction 1445431423958 TestPlanetExplorer.java ADD void executeCommand FIELD
+RefactoringAction 1445431425964 TestPlanetExplorer.java RENAME executeCommand=>void executeCommand() METHOD
+EditAction 1445431427374 TestPlanetExplorer.java 533 2 5 1
