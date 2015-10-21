@@ -80,13 +80,9 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		
-		
-		System.out.println( command );
-		
 		char[] cmdArr = command.toCharArray();
+
 		
-		System.out.println(cmdArr[0]);
 		
 		
 		return null;
