@@ -39,7 +39,7 @@ public class PlanetExplorer {
 		
 		String obs = obstacles.substring(0,obstacles.length()-1);;
 		
-		obs.replace("1", ""); // Output: "1,2)3,4)5,6).."
+		obs.replace("(", ""); // Output: "1,2)3,4)5,6).."
 		System.out.println(obs);
 		String[] coords = obs.split("\\)");
 		Pair[] thePairs = new Pair[ coords.length ];
