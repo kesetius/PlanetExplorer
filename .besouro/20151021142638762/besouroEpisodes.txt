@@ -99,3 +99,5 @@
 1445432950148 test-last 1 673 false
 1445432950149 test-last 1 673 false
 1445432950150 test-last 1 673 false
+1445432959408 test-addition 1 1 true
+1445432975089 regression 1 0 true

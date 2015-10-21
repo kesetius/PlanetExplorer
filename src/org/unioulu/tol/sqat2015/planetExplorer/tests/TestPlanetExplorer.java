@@ -37,7 +37,7 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(100,100,"(1,1)(6,6)");
 		
 		int[][] array = new int[100][100];
-		array[0][1] = 1;
+		array[1][1] = 1;
 		array[1][1] = 2;
 		array[6][6] = 2;
 		
