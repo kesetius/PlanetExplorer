@@ -41,7 +41,7 @@ public class PlanetExplorer {
 	
 	public Pair[] parseObstacles( String obstacles ) {
 		
-		if( obstacles == "")
+		if( obstacles == "") // No obstacles set
 			return null;
 		
 		String obs = obstacles;
