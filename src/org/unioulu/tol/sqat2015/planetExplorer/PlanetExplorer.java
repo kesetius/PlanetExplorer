@@ -20,6 +20,11 @@ public class PlanetExplorer {
 		// Initialize the grid
 		this.setGrid(x, y);
 		
+		Pair[] obs = this.parseObstacles(obstacles);
+		
+		for( Pair p : obs ) {
+			this.setObstacle(p.getX(), p.getY());
+		}
 		
 	}
 		
@@ -32,26 +37,22 @@ public class PlanetExplorer {
 		this.grid = new int[x][y];
 	}
 	
-	public void parseObstacles( String obstacles ) {
-		
+	public Pair[] parseObstacles( String obstacles ) {
 		
 		String obs = obstacles;
-		
 		obs.replace("(",""); // Output: "1,2)3,4)5,6).."
-		
 		String[] coords = obs.split(")");
+		Pair[] thePairs = new Pair[ coords.length ];
 		
+		int i = 0;
 		for( String c : coords) {
-			
 			String[] oneCoord = c.split(","); 
 			Pair pair = new Pair( Integer.parseInt(oneCoord[0]), Integer.parseInt(oneCoord[1]));
-			
-			
+			thePairs[i] = pair;
+			i++;
 		}
 		
-
-		
-		
+		return thePairs;
 	}
 	
 	
