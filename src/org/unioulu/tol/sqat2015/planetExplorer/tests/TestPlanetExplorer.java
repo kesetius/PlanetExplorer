@@ -25,6 +25,7 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(100,100,"");
 		
 		int[][] array = new int[100][100];
+		array[0][0] = 1;
 		
 		assertArrayEquals(array,pe.getGrid());
 	}
