@@ -18,11 +18,11 @@ public class PlanetExplorer {
 		// Initialize the grid
 		this.setGrid(x, y);
 		
-		//Pair[] obs = this.parseObstacles(obstacles);
+		Pair[] obs = this.parseObstacles(obstacles);
 		
-		//for( Pair p : obs ) {
-		//	this.setObstacle(p.getX(), p.getY());
-		//}
+		for( Pair p : obs ) {
+			this.setObstacle(p.getX(), p.getY());
+		}
 		
 	}
 		
