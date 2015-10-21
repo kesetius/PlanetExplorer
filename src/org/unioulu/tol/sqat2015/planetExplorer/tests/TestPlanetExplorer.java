@@ -11,7 +11,12 @@ public class TestPlanetExplorer {
 	public void testGridCreation() {
 		
 		PlanetExplorer pe = new PlanetExplorer(100,100,"(1,1)(6,6)");
-		assertArrayEquals(new int[100][100],pe.getGrid());
+		
+		int[][] array = new int[100][100];
+		array[1][1] = 1;
+		array[6][6] = 1;
+		
+		assertArrayEquals(array,pe.getGrid());
 		
 	}
 }
