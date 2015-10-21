@@ -89,7 +89,26 @@ public class PlanetExplorer {
 		
 		char[] cmdArr = command.toCharArray();
 
+		this.grid[myPos.getX()][myPos.getY()] = 0;
+		
 		for( char c : cmdArr) {
+			switch (c) {
+				case 'f':
+					this.grid[myPos.getX()][myPos.getY()+1] = 1;
+				case 'b':
+					this.grid[myPos.getX()][myPos.getY()-1] = 1;
+				case 'l':
+					this.grid[myPos.getX()-1][myPos.getY()] = 1;
+				case 'r':
+					this.grid[myPos.getX()+1][myPos.getY()] = 1;
+				default:
+					this.grid[myPos.getX()][myPos.getY()] = 1;
+			}
+			
+
+			
+			
+			
 		}
 		
 		

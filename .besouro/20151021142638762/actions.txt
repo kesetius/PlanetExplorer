@@ -298,3 +298,4 @@ UnitTestSessionAction 1445433159773 TestPlanetExplorer OK
 RefactoringAction 1445433208445 PlanetExplorer.java ADD void moveExplorer FIELD
 RefactoringAction 1445433229956 PlanetExplorer.java REMOVE moveExplorer FIELD
 EditAction 1445433231192 PlanetExplorer.java 3000 8 22 0
+EditAction 1445433482888 PlanetExplorer.java 3422 8 23 0
