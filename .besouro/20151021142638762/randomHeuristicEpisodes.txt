@@ -19,3 +19,4 @@
 1445433099950 refactoring 1A 27 true
 1445433145839 regression 1 0 false
 1445433154062 refactoring 2A 1 false
+1445433159773 refactoring 2A 2 true

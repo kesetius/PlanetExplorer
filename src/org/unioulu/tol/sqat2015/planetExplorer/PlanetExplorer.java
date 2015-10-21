@@ -85,6 +85,8 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		Pair myPos = this.getExplorerPosition();
+		
 		char[] cmdArr = command.toCharArray();
 
 		for( char c : cmdArr) {
@@ -93,6 +95,7 @@ public class PlanetExplorer {
 		
 		return null;
 	}
+		
 	
 	public Pair getExplorerPosition() {
 
