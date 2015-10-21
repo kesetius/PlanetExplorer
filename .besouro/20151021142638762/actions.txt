@@ -179,3 +179,6 @@ RefactoringAction 1445431486198 TestPlanetExplorer.java RENAME testGridCreationW
 RefactoringAction 1445431490205 TestPlanetExplorer.java RENAME testGridCreationWithTwoObstacles()=>void test100x100GridCreationWithTwoObstacles() METHOD
 EditAction 1445431494178 TestPlanetExplorer.java 811 3 10 2
 EditAction 1445431500717 TestPlanetExplorer.java 761 3 8 2
+UnitTestCaseAction 1445431501945 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445431501945 TestPlanetExplorer FAIL
+EditAction 1445431527206 PlanetExplorer.java 2476 6 16 0
