@@ -101,14 +101,19 @@ public class PlanetExplorer {
 				case 'f':
 					System.out.println("im here");
 					this.grid[myPos.getX()][myPos.getY()+1] = 1;
+					break;
 				case 'b':
 					this.grid[myPos.getX()][myPos.getY()-1] = 1;
+					break;
 				case 'l':
 					this.grid[myPos.getX()-1][myPos.getY()] = 1;
+					break;
 				case 'r':
 					this.grid[myPos.getX()+1][myPos.getY()] = 1;
+					break;
 				default:
 					this.grid[myPos.getX()][myPos.getY()] = 1;
+					break;
 			}
 		}
 			
