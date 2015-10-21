@@ -92,6 +92,8 @@ public class PlanetExplorer {
 		this.grid[myPos.getX()][myPos.getY()] = 0;
 		
 		for( char c : cmdArr) {
+			// TODO: wrap this in to a method and record obstacles
+			//       inside that method
 			switch (c) {
 				case 'f':
 					this.grid[myPos.getX()][myPos.getY()+1] = 1;
