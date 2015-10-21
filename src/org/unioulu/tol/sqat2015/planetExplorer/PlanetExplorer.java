@@ -76,7 +76,7 @@ public class PlanetExplorer {
 		 */
 		
 		
-		
+		console.log(command);
 		
 		
 		return null;
