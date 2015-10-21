@@ -26,3 +26,19 @@ RefactoringAction 1445427936165 PlanetExplorer.java RENAME setObstacle()=>void s
 EditAction 1445427959832 PlanetExplorer.java 1591 5 4 0
 EditAction 1445428060886 PlanetExplorer.java 1727 5 4 0
 EditAction 1445428180430 PlanetExplorer.java 1785 5 5 0
+RefactoringAction 1445428412007 PlanetExplorer.java ADD void parseObstacles FIELD
+RefactoringAction 1445428418516 PlanetExplorer.java RENAME parseObstacles=>void parseObstacles(String) METHOD
+RefactoringAction 1445428808097 PlanetExplorer.java ADD Pair jee FIELD
+RefactoringAction 1445428813107 PlanetExplorer.java REMOVE jee FIELD
+RefactoringAction 1445428842504 Pair.java ADD Pair.java CLASS
+FileOpenedAction 1445428842658 Pair.java 78 0 0 0
+RefactoringAction 1445428855162 Pair.java ADD int x FIELD
+RefactoringAction 1445428855162 Pair.java ADD int y FIELD
+RefactoringAction 1445428871170 Pair.java ADD void setPair(int, int) METHOD
+RefactoringAction 1445428894189 Pair.java ADD void getPair() METHOD
+RefactoringAction 1445428895694 Pair.java RENAME getPair()=>void getPair FIELD
+RefactoringAction 1445428898198 Pair.java RENAME getPair=>void getPair() METHOD
+RefactoringAction 1445428943718 Pair.java RENAME getPair()=><initializer /1> null
+RefactoringAction 1445428949238 Pair.java ADD int getX FIELD
+RefactoringAction 1445428964263 Pair.java ADD int getY() METHOD
+EditAction 1445428964559 Pair.java 288 3 4 0
