@@ -42,7 +42,7 @@ public class PlanetExplorer {
 		obs = obs.replace("(", ""); // Output: "1,2)3,4)5,6).."
 		System.out.println(obs);
 		String[] coords = obs.split(")");
-		System.out.println(coords[0]);
+		System.out.println(coords[1]);
 		Pair[] thePairs = new Pair[ coords.length ];
 		
 		int i = 0;
