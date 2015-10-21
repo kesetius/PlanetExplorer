@@ -95,8 +95,7 @@ public class PlanetExplorer {
 	}
 	
 	public Pair getExplorerPosition() {
-		
-		
+
 		for(int x=0; x<this.grid.length; x++ ) {
 			for(int y=0; y<this.grid[0].length; y++) {
 				if(this.grid[x][y] == 1)
