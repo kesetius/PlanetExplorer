@@ -83,19 +83,21 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		Pair myPos = this.getExplorerPosition();
+		
 		
 		char[] cmdArr = command.toCharArray();
 
-		this.grid[myPos.getX()][myPos.getY()] = 0;
-		
-		
 		
 		for( char c : cmdArr) {
+			
+			
 			// TODO: wrap in to a method and record obstacles
 			//       inside that method
+			
+			Pair myPos = this.getExplorerPosition();
+			System.out.println(myPos.getY());
+			this.grid[myPos.getX()][myPos.getY()] = 0;
 			switch (c) {
-				Pair myPos = this.getExplorerPosition();
 				case 'f':
 					System.out.println("im here");
 					this.grid[myPos.getX()][myPos.getY()+1] = 1;
