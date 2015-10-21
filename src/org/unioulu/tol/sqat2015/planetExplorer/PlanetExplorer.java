@@ -20,9 +20,15 @@ public class PlanetExplorer {
 		
 		Pair[] obs = this.parseObstacles(obstacles);
 		
-		for( Pair p : obs ) {
-			this.setObstacle(p.getX(), p.getY());
+		if (obs != null)
+		{
+			for( Pair p : obs ) {
+				this.setObstacle(p.getX(), p.getY());
+			}
+			
+			
 		}
+
 		
 	}
 		
