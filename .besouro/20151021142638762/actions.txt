@@ -24,3 +24,4 @@ RefactoringAction 1445427929139 PlanetExplorer.java ADD void set FIELD
 RefactoringAction 1445427932148 PlanetExplorer.java RENAME set=>void setObstacle() METHOD
 RefactoringAction 1445427936165 PlanetExplorer.java RENAME setObstacle()=>void setObstacle(int, int) METHOD
 EditAction 1445427959832 PlanetExplorer.java 1591 5 4 0
+EditAction 1445428060886 PlanetExplorer.java 1727 5 4 0

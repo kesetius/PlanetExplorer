@@ -24,11 +24,12 @@ public class PlanetExplorer {
 		return grid;
 	}
 
-
+	// Creates grid based on given x & y [initializes with zeros by lang spec]
 	public void setGrid(int x, int y) {
 		this.grid = new int[x][y];
 	}
 	
+	// Add obstacle to a spesific field of a grid, [mark as 1]
 	public void setObstacle(int x,int y) {
 		this.grid[x][y] = 1;
 	}
