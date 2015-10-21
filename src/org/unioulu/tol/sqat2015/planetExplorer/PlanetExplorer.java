@@ -28,7 +28,6 @@ public class PlanetExplorer {
 				this.setObstacle(p.getX(), p.getY());
 			}	
 		}
-
 		
 	}
 		
@@ -62,7 +61,6 @@ public class PlanetExplorer {
 		
 		return thePairs;
 	}
-	
 	
 	// Add obstacle to a spesific field of a grid, [mark as 1]
 	public void setObstacle(int x,int y) {
@@ -106,8 +104,6 @@ public class PlanetExplorer {
 				default:
 					this.grid[myPos.getX()][myPos.getY()] = 1;
 			}
-				
-			
 		}
 			
 		return null;
