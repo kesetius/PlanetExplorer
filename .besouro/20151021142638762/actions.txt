@@ -356,3 +356,11 @@ EditAction 1445434200820 TestPlanetExplorer.java 1355 4 19 3
 UnitTestCaseAction 1445434202428 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445434202428 TestPlanetExplorer FAIL
 EditAction 1445434204619 TestPlanetExplorer.java 1355 4 19 3
+UnitTestCaseAction 1445434206182 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445434206182 TestPlanetExplorer OK
+RefactoringAction 1445434356167 PlanetExplorer.java ADD void moveExplorer() METHOD
+RefactoringAction 1445434361695 PlanetExplorer.java RENAME moveExplorer()=>void moveExplorer(char) METHOD
+RefactoringAction 1445434384734 PlanetExplorer.java ADD boolean chech FIELD
+RefactoringAction 1445434390244 PlanetExplorer.java RENAME chech=>boolean obstacleOrNot() METHOD
+RefactoringAction 1445434400764 PlanetExplorer.java RENAME obstacleOrNot()=>boolean obstacleOrNot(int, int) METHOD
+EditAction 1445434489048 PlanetExplorer.java 3723 10 23 0

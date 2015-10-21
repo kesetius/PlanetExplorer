@@ -62,13 +62,23 @@ public class PlanetExplorer {
 		return thePairs;
 	}
 	
-	// Add obstacle to a spesific field of a grid, [mark as 1]
+	// Add obstacle to a specific field of a grid, [mark as 1]
 	public void setObstacle(int x,int y) {
 		this.grid[x][y] = 2;
 	}
 	
 	public void setExplorer( int x, int y) {
 		this.grid[x][y] = 1;
+	}
+	
+	public void moveExplorer( char direction ) {
+		
+	}
+	
+	public boolean obstacleOrNot( int x, int y) {
+		if( this.grid[x][y] == 0)
+			return false;
+		return true;
 	}
 	
 	public String executeCommand(String command){
@@ -83,13 +93,9 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		
-		
 		char[] cmdArr = command.toCharArray();
 
-		
 		for( char c : cmdArr) {
-			
 			
 			// TODO: wrap in to a method and record obstacles
 			//       inside that method
