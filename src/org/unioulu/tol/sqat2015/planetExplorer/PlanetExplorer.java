@@ -81,7 +81,7 @@ public class PlanetExplorer {
 		 */
 		
 		
-		System.out.println( command );
+		System.out.println( command[0] );
 		
 		
 		return null;
