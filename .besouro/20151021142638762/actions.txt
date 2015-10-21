@@ -54,3 +54,4 @@ RefactoringAction 1445430211817 TestPlanetExplorer.java RENAME test()=>void test
 RefactoringAction 1445430213323 TestPlanetExplorer.java RENAME testGrid()=>void testGridCreation() METHOD
 RefactoringAction 1445430239583 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
 EditAction 1445430269058 TestPlanetExplorer.java 353 1 1 0
+EditAction 1445430344439 TestPlanetExplorer.java 398 1 2 1
