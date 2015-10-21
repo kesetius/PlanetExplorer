@@ -24,9 +24,7 @@ public class PlanetExplorer {
 		{
 			for( Pair p : obs ) {
 				this.setObstacle(p.getX(), p.getY());
-			}
-			
-			
+			}	
 		}
 
 		
