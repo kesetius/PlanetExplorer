@@ -252,3 +252,8 @@ UnitTestSessionAction 1445432719436 TestPlanetExplorer FAIL
 RefactoringAction 1445432745427 TestPlanetExplorer.java REMOVE import org.unioulu.tol.sqat2015.planetExplorer.Pair IMPORT
 RefactoringAction 1445432776870 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.Pair IMPORT
 EditAction 1445432939755 TestPlanetExplorer.java 1375 4 12 2
+CompilationAction 1445432940009 TestPlanetExplorer.java
+CompilationAction 1445432948954 TestPlanetExplorer.java
+UnitTestCaseAction 1445432950140 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445432950141 TestPlanetExplorer OK
+EditAction 1445432957876 TestPlanetExplorer.java 1374 4 20 3
