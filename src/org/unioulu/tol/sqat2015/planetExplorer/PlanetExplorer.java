@@ -98,10 +98,9 @@ public class PlanetExplorer {
 
 		for(int x=0; x<this.grid.length; x++ ) {
 			for(int y=0; y<this.grid[0].length; y++) {
-				if(this.grid[x][y] == 1) {
-					System.out.println(y);
+				if(this.grid[x][y] == 1) 
 					return new Pair(x,y);
-				}
+				
 					
 			}
 		}
