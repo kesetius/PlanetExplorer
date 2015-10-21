@@ -17,6 +17,8 @@ public class PlanetExplorer {
 		
 		// Initialize the grid
 		this.setGrid(x, y);
+		// Set the explorer at position 0,0
+		this.setExplorer( 0, 0);
 		
 		Pair[] obs = this.parseObstacles(obstacles);
 		
@@ -67,6 +69,9 @@ public class PlanetExplorer {
 		this.grid[x][y] = 2;
 	}
 	
+	public void setExplorer( int x, int y) {
+		this.grid[x][y] = 1;
+	}
 	
 	public String executeCommand(String command){
 		

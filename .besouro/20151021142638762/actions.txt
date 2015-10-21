@@ -214,3 +214,13 @@ UnitTestSessionAction 1445431904196 TestPlanetExplorer OK
 EditAction 1445431920178 PlanetExplorer.java 2554 6 16 0
 EditAction 1445431978754 PlanetExplorer.java 2554 6 16 0
 EditAction 1445431983531 TestPlanetExplorer.java 855 3 10 2
+UnitTestCaseAction 1445431985838 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445431985838 TestPlanetExplorer OK
+RefactoringAction 1445432006294 PlanetExplorer.java ADD void set FIELD
+RefactoringAction 1445432010803 PlanetExplorer.java RENAME set=>void setExplorer(int, int) METHOD
+CompilationAction 1445432032466 PlanetExplorer.java
+CompilationAction 1445432032466 PlanetExplorer.java
+CompilationAction 1445432032467 PlanetExplorer.java
+UnitTestCaseAction 1445432042152 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432042152 TestPlanetExplorer FAIL
+EditAction 1445432053170 TestPlanetExplorer.java 875 3 11 2
