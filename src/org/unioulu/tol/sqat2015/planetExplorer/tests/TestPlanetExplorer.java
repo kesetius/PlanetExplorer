@@ -32,6 +32,13 @@ public class TestPlanetExplorer {
 	@Test
 	public void executeCommand() {
 		
+		PlanetExplorer pe = new PlanetExplorer(100,100,"");
+		
+		int[][] array = new int[100][100];
+		
+		assertArrayEquals(array,pe.getGrid());
+		
+		
 	}
 
 }
