@@ -38,7 +38,7 @@ public class PlanetExplorer {
 	public Pair[] parseObstacles( String obstacles ) {
 		
 		String obs = obstacles;
-		obs.replace("(",""); // Output: "1,2)3,4)5,6).."
+		obs.replace("(", ""); // Output: "1,2)3,4)5,6).."
 		String[] coords = obs.split(")");
 		Pair[] thePairs = new Pair[ coords.length ];
 		
